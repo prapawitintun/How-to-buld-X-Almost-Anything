@@ -1,0 +1,1623 @@
+{
+  "schema_version": 1,
+  "brand": "Prapawit Intun",
+  "title": "Build for Humanity — Build Your Own Technology",
+  "edition": "0.2.0",
+  "compiler": {
+    "name": "Prapawit Intun",
+    "affiliation": "MIT Affiliate"
+  },
+  "purpose": "Learn, build, and evaluate technologies that can improve everyday life.",
+  "upstream_reference": "upstream/manifest.json",
+  "repository_url": "https://github.com/prapawitintun/How-to-buld-X-Almost-Anything",
+  "categories": [
+    {
+      "id": "LL-001",
+      "title": "Neural networks",
+      "slug": "neural-networks",
+      "track": "AI & Data",
+      "level": "starter",
+      "exercise": "Train a small classifier and report held-out accuracy.",
+      "resources": [
+        {
+          "url": "https://github.com/karpathy/micrograd",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/karpathy/micrograd",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://pytorch.org/tutorials/",
+          "publisher": "pytorch.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.pytorch.org/tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-002",
+      "title": "Language models",
+      "slug": "language-models",
+      "track": "AI & Data",
+      "level": "starter",
+      "exercise": "Train a character-level language model on a small public-domain text.",
+      "resources": [
+        {
+          "url": "https://github.com/karpathy/nanoGPT",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/karpathy/nanoGPT",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/rasbt/LLMs-from-scratch",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/rasbt/LLMs-from-scratch",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-003",
+      "title": "Retrieval systems",
+      "slug": "retrieval",
+      "track": "AI & Data",
+      "level": "starter",
+      "exercise": "Index ten documents and measure retrieval against ten labeled questions.",
+      "resources": [
+        {
+          "url": "https://www.sbert.net/",
+          "publisher": "www.sbert.net",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.sbert.net/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/facebookresearch/faiss",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/facebookresearch/faiss",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-004",
+      "title": "Computer vision",
+      "slug": "computer-vision",
+      "track": "AI & Data",
+      "level": "starter",
+      "exercise": "Detect geometric shapes in a photo and measure detection errors.",
+      "resources": [
+        {
+          "url": "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html",
+          "publisher": "docs.opencv.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.opencv.org/4.13.0/d9/df8/tutorial_root.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://pytorch.org/tutorials/",
+          "publisher": "pytorch.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.pytorch.org/tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-005",
+      "title": "Speech interfaces",
+      "slug": "speech",
+      "track": "AI & Data",
+      "level": "starter",
+      "exercise": "Transcribe a short recording, then count word errors against a transcript.",
+      "resources": [
+        {
+          "url": "https://github.com/openai/whisper",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/openai/whisper",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API",
+          "publisher": "developer.mozilla.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-006",
+      "title": "Search engines",
+      "slug": "search-engines",
+      "track": "AI & Data",
+      "level": "starter",
+      "exercise": "Implement an inverted index and rank a small collection of documents.",
+      "resources": [
+        {
+          "url": "https://nlp.stanford.edu/IR-book/",
+          "publisher": "nlp.stanford.edu",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://nlp.stanford.edu/IR-book/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://sqlite.org/fts5.html",
+          "publisher": "sqlite.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://sqlite.org/fts5.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-007",
+      "title": "Knowledge graphs",
+      "slug": "knowledge-graphs",
+      "track": "AI & Data",
+      "level": "starter",
+      "exercise": "Represent people, places, materials, and evidence as a queryable graph.",
+      "resources": [
+        {
+          "url": "https://networkx.org/documentation/stable/tutorial.html",
+          "publisher": "networkx.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://networkx.org/documentation/stable/tutorial.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://www.w3.org/TR/rdf11-primer/",
+          "publisher": "www.w3.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.w3.org/TR/rdf11-primer/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-008",
+      "title": "Data visualization",
+      "slug": "data-visualization",
+      "track": "AI & Data",
+      "level": "starter",
+      "exercise": "Build a participation chart that links every mark back to a source record.",
+      "resources": [
+        {
+          "url": "https://observablehq.com/@d3/learn-d3",
+          "publisher": "observablehq.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://observablehq.com/@d3/learn-d3",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://vega.github.io/vega-lite/tutorials/getting_started.html",
+          "publisher": "vega.github.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://vega.github.io/vega-lite/tutorials/getting_started.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-009",
+      "title": "Databases",
+      "slug": "databases",
+      "track": "Software Systems",
+      "level": "starter",
+      "exercise": "Implement a tiny append-only key-value store with recovery after restart.",
+      "resources": [
+        {
+          "url": "https://cstack.github.io/db_tutorial/",
+          "publisher": "cstack.github.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://cstack.github.io/db_tutorial/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://sqlite.org/docs.html",
+          "publisher": "sqlite.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://sqlite.org/docs.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-010",
+      "title": "Programming languages",
+      "slug": "programming-languages",
+      "track": "Software Systems",
+      "level": "starter",
+      "exercise": "Write a tokenizer, parser, and evaluator for arithmetic expressions.",
+      "resources": [
+        {
+          "url": "https://craftinginterpreters.com/",
+          "publisher": "craftinginterpreters.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://craftinginterpreters.com/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://llvm.org/docs/tutorial/",
+          "publisher": "llvm.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://llvm.org/docs/tutorial/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-011",
+      "title": "Operating systems",
+      "slug": "operating-systems",
+      "track": "Software Systems",
+      "level": "starter",
+      "exercise": "Run a teaching OS in an emulator and explain a system call.",
+      "resources": [
+        {
+          "url": "https://pdos.csail.mit.edu/6.1810/",
+          "publisher": "pdos.csail.mit.edu",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://pdos.csail.mit.edu/6.1810/2026/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://os.phil-opp.com/",
+          "publisher": "os.phil-opp.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://os.phil-opp.com/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-012",
+      "title": "Network protocols",
+      "slug": "network-protocols",
+      "track": "Software Systems",
+      "level": "starter",
+      "exercise": "Write a local TCP client and server with framed messages.",
+      "resources": [
+        {
+          "url": "https://beej.us/guide/bgnet/",
+          "publisher": "beej.us",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://beej.us/guide/bgnet/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.python.org/3/library/socket.html",
+          "publisher": "docs.python.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.python.org/3/library/socket.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-013",
+      "title": "Web servers",
+      "slug": "web-servers",
+      "track": "Software Systems",
+      "level": "starter",
+      "exercise": "Serve a static page and return correct status codes for missing files.",
+      "resources": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+          "publisher": "developer.mozilla.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.python.org/3/library/http.server.html",
+          "publisher": "docs.python.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.python.org/3/library/http.server.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-014",
+      "title": "Browser engines",
+      "slug": "browser-engines",
+      "track": "Software Systems",
+      "level": "starter",
+      "exercise": "Render a small subset of HTML and explain which browser features are missing.",
+      "resources": [
+        {
+          "url": "https://browser.engineering/",
+          "publisher": "browser.engineering",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://browser.engineering/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-015",
+      "title": "Version control",
+      "slug": "version-control",
+      "track": "Software Systems",
+      "level": "starter",
+      "exercise": "Store file snapshots by content hash and reconstruct an earlier revision.",
+      "resources": [
+        {
+          "url": "https://git-scm.com/book/en/v2",
+          "publisher": "git-scm.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://git-scm.com/book/en/v2",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://wyag.thb.lt/",
+          "publisher": "wyag.thb.lt",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://wyag.thb.lt/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-016",
+      "title": "Containers",
+      "slug": "containers",
+      "track": "Software Systems",
+      "level": "starter",
+      "exercise": "Containerize a small program and document its filesystem and process boundaries.",
+      "resources": [
+        {
+          "url": "https://docs.docker.com/get-started/",
+          "publisher": "docs.docker.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.docker.com/get-started/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-017",
+      "title": "CAD geometry",
+      "slug": "cad-geometry",
+      "track": "Spatial Design",
+      "level": "starter",
+      "exercise": "Export a dimensioned rectangular panel as SVG; inspect units and closure.",
+      "resources": [
+        {
+          "url": "https://cadquery.readthedocs.io/en/latest/",
+          "publisher": "cadquery.readthedocs.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://cadquery.readthedocs.io/en/latest/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://dev.opencascade.org/doc/overview/html/",
+          "publisher": "dev.opencascade.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://occt3d.com/dev/doc/overview/html/index.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-018",
+      "title": "Parametric modeling",
+      "slug": "parametric-modeling",
+      "track": "Spatial Design",
+      "level": "starter",
+      "exercise": "Create a panel that updates consistently when length and thickness change.",
+      "resources": [
+        {
+          "url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/",
+          "publisher": "docs.blender.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/nortikin/sverchok",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/nortikin/sverchok",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-019",
+      "title": "BIM and IFC",
+      "slug": "bim-ifc",
+      "track": "Spatial Design",
+      "level": "starter",
+      "exercise": "Create or inspect one wall with dimensions, identity, and material data in IFC.",
+      "resources": [
+        {
+          "url": "https://docs.ifcopenshell.org/",
+          "publisher": "docs.ifcopenshell.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.ifcopenshell.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.bonsaibim.org/",
+          "publisher": "docs.bonsaibim.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.bonsaibim.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-020",
+      "title": "Visual programming",
+      "slug": "visual-programming",
+      "track": "Spatial Design",
+      "level": "starter",
+      "exercise": "Evaluate a small directed node graph with explicit cycle detection.",
+      "resources": [
+        {
+          "url": "https://github.com/nortikin/sverchok",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/nortikin/sverchok",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/",
+          "publisher": "docs.blender.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-021",
+      "title": "Shape grammars",
+      "slug": "shape-grammars",
+      "track": "Spatial Design",
+      "level": "starter",
+      "exercise": "Define and apply three explicit geometric rewrite rules, preserving an operation log.",
+      "resources": [
+        {
+          "url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/",
+          "publisher": "ocw.mit.edu",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-022",
+      "title": "Planar grammar",
+      "slug": "planar-grammar",
+      "track": "Spatial Design",
+      "level": "starter",
+      "exercise": "Generate numbered panels and record integration, splitting, and rejoining rules.",
+      "resources": [
+        {
+          "url": "https://fabacademy.org/2018/docs/FabAcademy-Tutorials/",
+          "publisher": "fabacademy.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://fabacademy.org/2018/docs/FabAcademy-Tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://cadquery.readthedocs.io/en/latest/",
+          "publisher": "cadquery.readthedocs.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://cadquery.readthedocs.io/en/latest/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-023",
+      "title": "3D rendering",
+      "slug": "3d-rendering",
+      "track": "Spatial Design",
+      "level": "starter",
+      "exercise": "Render a sphere, light, and camera; compare changes in sampling noise.",
+      "resources": [
+        {
+          "url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html",
+          "publisher": "raytracing.github.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://www.pbr-book.org/",
+          "publisher": "www.pbr-book.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.pbr-book.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-024",
+      "title": "Physics simulation",
+      "slug": "physics-simulation",
+      "track": "Spatial Design",
+      "level": "starter",
+      "exercise": "Simulate a falling rigid body and compare trajectory to an analytic baseline.",
+      "resources": [
+        {
+          "url": "https://mujoco.readthedocs.io/en/stable/",
+          "publisher": "mujoco.readthedocs.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://mujoco.readthedocs.io/en/stable/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-025",
+      "title": "Laser cutting",
+      "slug": "laser-cutting",
+      "track": "Digital Fabrication",
+      "level": "starter",
+      "exercise": "Prepare a 2D fit coupon and document measured thickness, kerf, and fit outcomes.",
+      "resources": [
+        {
+          "url": "https://fabacademy.org/2018/docs/FabAcademy-Tutorials/",
+          "publisher": "fabacademy.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://fabacademy.org/2018/docs/FabAcademy-Tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-026",
+      "title": "CNC workflows",
+      "slug": "cnc",
+      "track": "Digital Fabrication",
+      "level": "starter",
+      "exercise": "Generate a simple simulated toolpath and record stock, tool, and clearance assumptions.",
+      "resources": [
+        {
+          "url": "https://linuxcnc.org/docs/html/",
+          "publisher": "linuxcnc.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://linuxcnc.org/docs/html/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://camotics.org/",
+          "publisher": "camotics.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://camotics.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-027",
+      "title": "3D printing",
+      "slug": "3d-printing",
+      "track": "Digital Fabrication",
+      "level": "starter",
+      "exercise": "Print a dimension coupon and measure shrinkage against the nominal dimensions.",
+      "resources": [
+        {
+          "url": "https://help.prusa3d.com/",
+          "publisher": "help.prusa3d.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://help.prusa3d.com/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://marlinfw.org/docs/basics/install.html",
+          "publisher": "marlinfw.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://marlinfw.org/docs/basics/install.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-028",
+      "title": "Sheet nesting",
+      "slug": "sheet-nesting",
+      "track": "Digital Fabrication",
+      "level": "starter",
+      "exercise": "Compare original-order and height-sorted packing on the same rectangular part list.",
+      "resources": [
+        {
+          "url": "https://developers.google.com/optimization/pack/bin_packing",
+          "publisher": "developers.google.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://developers.google.com/optimization/pack/bin_packing",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/Jack000/SVGnest",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/Jack000/SVGnest",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-029",
+      "title": "Assembly planning",
+      "slug": "assembly-planning",
+      "track": "Digital Fabrication",
+      "level": "starter",
+      "exercise": "Create a dependency graph and derive an order; test access with a physical mockup.",
+      "resources": [
+        {
+          "url": "https://networkx.org/documentation/stable/reference/algorithms/dag.html",
+          "publisher": "networkx.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://networkx.org/documentation/stable/reference/algorithms/dag.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-030",
+      "title": "Physical verification",
+      "slug": "physical-verification",
+      "track": "Digital Fabrication",
+      "level": "starter",
+      "exercise": "Predict fit on unseen coupons, then compare predictions with measured outcomes.",
+      "resources": [
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/",
+          "publisher": "www.itl.nist.gov",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.itl.nist.gov/div898/handbook/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-031",
+      "title": "Microcontrollers",
+      "slug": "microcontrollers",
+      "track": "Hardware & Robotics",
+      "level": "starter",
+      "exercise": "Blink an LED and record its timing using a second observation method.",
+      "resources": [
+        {
+          "url": "https://docs.arduino.cc/learn/",
+          "publisher": "docs.arduino.cc",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.arduino.cc/learn/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.micropython.org/en/latest/",
+          "publisher": "docs.micropython.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.micropython.org/en/latest/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-032",
+      "title": "Analog and digital sensors",
+      "slug": "sensors",
+      "track": "Hardware & Robotics",
+      "level": "starter",
+      "exercise": "Measure a variable input and a binary input; plot both against a reference.",
+      "resources": [
+        {
+          "url": "https://docs.arduino.cc/learn/",
+          "publisher": "docs.arduino.cc",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.arduino.cc/learn/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/",
+          "publisher": "learn.adafruit.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://learn.adafruit.com/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-033",
+      "title": "Soft sensors and wearables",
+      "slug": "soft-sensors",
+      "track": "Hardware & Robotics",
+      "level": "starter",
+      "exercise": "Build a low-voltage textile switch and compare it with a resistive pressure sample.",
+      "resources": [
+        {
+          "url": "https://class.textile-academy.org/tutorials/",
+          "publisher": "class.textile-academy.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://class.textile-academy.org/tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://www.kobakant.at/DIY/",
+          "publisher": "www.kobakant.at",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.kobakant.at/DIY/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-034",
+      "title": "Robot kinematics",
+      "slug": "robot-kinematics",
+      "track": "Hardware & Robotics",
+      "level": "starter",
+      "exercise": "Compute forward kinematics for a two-link arm and test known configurations.",
+      "resources": [
+        {
+          "url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/",
+          "publisher": "modernrobotics.northwestern.edu",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+          "publisher": "docs.ros.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.ros.org/en/jazzy/Tutorials.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-035",
+      "title": "Robot simulation",
+      "slug": "robot-simulation",
+      "track": "Hardware & Robotics",
+      "level": "starter",
+      "exercise": "Move a simulated robot to a target and log pose error over repeated trials.",
+      "resources": [
+        {
+          "url": "https://gazebosim.org/docs/latest/",
+          "publisher": "gazebosim.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://gazebosim.org/docs/latest/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://mujoco.readthedocs.io/en/stable/",
+          "publisher": "mujoco.readthedocs.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://mujoco.readthedocs.io/en/stable/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-036",
+      "title": "PCB design",
+      "slug": "pcb-design",
+      "track": "Hardware & Robotics",
+      "level": "starter",
+      "exercise": "Design a simple LED board and run schematic and board rule checks.",
+      "resources": [
+        {
+          "url": "https://docs.kicad.org/",
+          "publisher": "docs.kicad.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.kicad.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://learn.adafruit.com/",
+          "publisher": "learn.adafruit.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://learn.adafruit.com/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-037",
+      "title": "Biomaterials",
+      "slug": "biomaterials",
+      "track": "Materials & Community",
+      "level": "starter",
+      "exercise": "Document a material sample with recipe provenance, thickness, transparency, and drying conditions.",
+      "resources": [
+        {
+          "url": "https://class.textile-academy.org/classes/2024-25/week07/",
+          "publisher": "class.textile-academy.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://class.textile-academy.org/classes/2024-25/week07/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://class.textile-academy.org/tutorials/",
+          "publisher": "class.textile-academy.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://class.textile-academy.org/tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-038",
+      "title": "Textile structures",
+      "slug": "textile-structures",
+      "track": "Materials & Community",
+      "level": "starter",
+      "exercise": "Make a repeatable knitted or woven swatch and compare stretch across directions.",
+      "resources": [
+        {
+          "url": "https://class.textile-academy.org/tutorials/",
+          "publisher": "class.textile-academy.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://class.textile-academy.org/tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-039",
+      "title": "Participatory mapping",
+      "slug": "participatory-mapping",
+      "track": "Materials & Community",
+      "level": "starter",
+      "exercise": "Collect consented place annotations, map them, and retain their provenance.",
+      "resources": [
+        {
+          "url": "https://leafletjs.com/examples/quick-start/",
+          "publisher": "leafletjs.com",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://leafletjs.com/examples/quick-start/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://wiki.openstreetmap.org/wiki/Beginners%27_guide",
+          "publisher": "wiki.openstreetmap.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://wiki.openstreetmap.org/wiki/Beginners%27_guide",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-040",
+      "title": "Circular material tracking",
+      "slug": "circular-material-tracking",
+      "track": "Materials & Community",
+      "level": "starter",
+      "exercise": "Track a material batch through fabrication, assembly, reuse, and measured waste.",
+      "resources": [
+        {
+          "url": "https://ref.gs1.org/standards/epcis/",
+          "publisher": "ref.gs1.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://ref.gs1.org/standards/epcis/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://www.w3.org/TR/prov-overview/",
+          "publisher": "www.w3.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.w3.org/TR/prov-overview/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-041",
+      "title": "Humanoid morphology",
+      "slug": "humanoid-morphology",
+      "track": "Humanoid Robotics",
+      "level": "intermediate",
+      "exercise": "Compare two humanoid model trees and document joint counts, link masses, and license differences.",
+      "resources": [
+        {
+          "url": "https://github.com/google-deepmind/mujoco_menagerie",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/google-deepmind/mujoco_menagerie",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/robotology/icub-main",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/robotology/icub-main",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-042",
+      "title": "Robot descriptions and joint limits",
+      "slug": "humanoid-description",
+      "track": "Humanoid Robotics",
+      "level": "intermediate",
+      "exercise": "Describe a simple articulated body with explicit frames, units, joint axes, and limits; validate its tree structure.",
+      "resources": [
+        {
+          "url": "https://github.com/ros/urdf",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/ros/urdf",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://mujoco.readthedocs.io/en/stable/",
+          "publisher": "mujoco.readthedocs.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://mujoco.readthedocs.io/en/stable/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-043",
+      "title": "Humanoid limb kinematics",
+      "slug": "humanoid-kinematics",
+      "track": "Humanoid Robotics",
+      "level": "intermediate",
+      "exercise": "Compute limb positions and an analytic Jacobian, then compare it with finite differences.",
+      "resources": [
+        {
+          "url": "https://github.com/stack-of-tasks/pinocchio",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/stack-of-tasks/pinocchio",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/",
+          "publisher": "modernrobotics.northwestern.edu",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-044",
+      "title": "Rigid-body dynamics and contacts",
+      "slug": "humanoid-dynamics",
+      "track": "Humanoid Robotics",
+      "level": "advanced",
+      "exercise": "Simulate a constrained contact example and report sensitivity to time step, mass, and friction assumptions.",
+      "resources": [
+        {
+          "url": "https://drake.mit.edu/",
+          "publisher": "drake.mit.edu",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://drake.mit.edu/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://mujoco.readthedocs.io/en/stable/",
+          "publisher": "mujoco.readthedocs.io",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://mujoco.readthedocs.io/en/stable/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-045",
+      "title": "Static balance and support regions",
+      "slug": "humanoid-balance",
+      "track": "Humanoid Robotics",
+      "level": "intermediate",
+      "exercise": "Compute a support polygon and the signed margin of a projected center of mass; test edge and outside cases.",
+      "resources": [
+        {
+          "url": "https://underactuated.mit.edu/",
+          "publisher": "underactuated.mit.edu",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://underactuated.mit.edu/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://drake.mit.edu/",
+          "publisher": "drake.mit.edu",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://drake.mit.edu/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-046",
+      "title": "Biped locomotion",
+      "slug": "humanoid-locomotion",
+      "track": "Humanoid Robotics",
+      "level": "advanced",
+      "exercise": "Reproduce a simulation locomotion baseline with fixed seeds and report falls, tracking error, and compute requirements.",
+      "resources": [
+        {
+          "url": "https://github.com/google-deepmind/mujoco_playground",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/google-deepmind/mujoco_playground",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/kscalelabs/ksim",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/kscalelabs/ksim",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-047",
+      "title": "Manipulation and grasping",
+      "slug": "humanoid-manipulation",
+      "track": "Humanoid Robotics",
+      "level": "intermediate",
+      "exercise": "Plan a simulated reach and grasp, measuring target error, collisions, and success across repeated trials.",
+      "resources": [
+        {
+          "url": "https://moveit.picknik.ai/main/index.html",
+          "publisher": "moveit.picknik.ai",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://moveit.picknik.ai/main/index.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/huggingface/lerobot",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/huggingface/lerobot",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-048",
+      "title": "Teleoperation and demonstrations",
+      "slug": "humanoid-teleoperation",
+      "track": "Humanoid Robotics",
+      "level": "intermediate",
+      "exercise": "Record time-stamped simulated joint commands and replay them with limits, latency measurements, and a stop control.",
+      "resources": [
+        {
+          "url": "https://huggingface.co/docs/lerobot/index",
+          "publisher": "huggingface.co",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://huggingface.co/docs/lerobot/index",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/ros-controls/ros2_control",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/ros-controls/ros2_control",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-049",
+      "title": "Imitation learning",
+      "slug": "humanoid-imitation",
+      "track": "Humanoid Robotics",
+      "level": "advanced",
+      "exercise": "Train on demonstration episodes and evaluate on held-out episodes and object positions without data leakage.",
+      "resources": [
+        {
+          "url": "https://huggingface.co/docs/lerobot/index",
+          "publisher": "huggingface.co",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://huggingface.co/docs/lerobot/index",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/huggingface/lerobot",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/huggingface/lerobot",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-050",
+      "title": "Reinforcement learning for robots",
+      "slug": "humanoid-rl",
+      "track": "Humanoid Robotics",
+      "level": "advanced",
+      "exercise": "Compare a learned simulated policy with a fixed controller under the same episode budget, seeds, and perturbations.",
+      "resources": [
+        {
+          "url": "https://github.com/leggedrobotics/rsl_rl",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/leggedrobotics/rsl_rl",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/isaac-sim/IsaacLab",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/isaac-sim/IsaacLab",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-051",
+      "title": "System identification and sim-to-real",
+      "slug": "humanoid-sim-to-real",
+      "track": "Humanoid Robotics",
+      "level": "advanced",
+      "exercise": "Fit a simulated actuator parameter on training traces and report prediction error on withheld traces; document the remaining hardware gap.",
+      "resources": [
+        {
+          "url": "https://github.com/google-deepmind/mujoco_playground",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/google-deepmind/mujoco_playground",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://github.com/unitreerobotics/unitree_mujoco",
+          "publisher": "github.com",
+          "type": "reference-implementation",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://github.com/unitreerobotics/unitree_mujoco",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-052",
+      "title": "Human supervision and stop behavior",
+      "slug": "humanoid-supervision",
+      "track": "Humanoid Robotics",
+      "level": "intermediate",
+      "exercise": "Require task approval in a software state machine, latch a stop, and show that execution cannot resume without reset and new approval.",
+      "resources": [
+        {
+          "url": "https://docs.python.org/3/library/enum.html",
+          "publisher": "docs.python.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.python.org/3/library/enum.html",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://www.w3.org/WAI/tutorials/",
+          "publisher": "www.w3.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.w3.org/WAI/tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-053",
+      "title": "Accessible assistive interfaces",
+      "slug": "assistive-interfaces",
+      "track": "Technology for Public Benefit",
+      "level": "intermediate",
+      "exercise": "Build a keyboard-accessible task interface, then measure task completion and errors with consenting participants.",
+      "resources": [
+        {
+          "url": "https://www.w3.org/WAI/tutorials/",
+          "publisher": "www.w3.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.w3.org/WAI/tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.arduino.cc/learn/",
+          "publisher": "docs.arduino.cc",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.arduino.cc/learn/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-054",
+      "title": "Repairable hardware",
+      "slug": "repairable-hardware",
+      "track": "Technology for Public Benefit",
+      "level": "intermediate",
+      "exercise": "Document a modular sensor enclosure with a bill of materials, replaceable parts, and a timed disassembly trial.",
+      "resources": [
+        {
+          "url": "https://docs.kicad.org/",
+          "publisher": "docs.kicad.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.kicad.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://fabacademy.org/2018/docs/FabAcademy-Tutorials/",
+          "publisher": "fabacademy.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://fabacademy.org/2018/docs/FabAcademy-Tutorials/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-055",
+      "title": "Environmental sensing",
+      "slug": "environmental-sensing",
+      "track": "Technology for Public Benefit",
+      "level": "intermediate",
+      "exercise": "Calibrate a low-voltage environmental sensor against a reference and report error, missing data, and maintenance effort.",
+      "resources": [
+        {
+          "url": "https://docs.arduino.cc/learn/",
+          "publisher": "docs.arduino.cc",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.arduino.cc/learn/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.getodk.org/",
+          "publisher": "docs.getodk.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.getodk.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-056",
+      "title": "Community energy data",
+      "slug": "community-energy",
+      "track": "Technology for Public Benefit",
+      "level": "intermediate",
+      "exercise": "Use recorded energy data to compare an intervention against a baseline, recording units and confounding factors.",
+      "resources": [
+        {
+          "url": "https://docs.openenergymonitor.org/",
+          "publisher": "docs.openenergymonitor.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.openenergymonitor.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/",
+          "publisher": "www.itl.nist.gov",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.itl.nist.gov/div898/handbook/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-057",
+      "title": "Community response mapping",
+      "slug": "response-mapping",
+      "track": "Technology for Public Benefit",
+      "level": "intermediate",
+      "exercise": "Create an offline-capable map of synthetic service requests and test data export and recovery after a connection loss.",
+      "resources": [
+        {
+          "url": "https://www.qgis.org/resources/hub/",
+          "publisher": "www.qgis.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.qgis.org/resources/hub/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.getodk.org/",
+          "publisher": "docs.getodk.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.getodk.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-058",
+      "title": "Circular manufacturing",
+      "slug": "circular-manufacturing",
+      "track": "Technology for Public Benefit",
+      "level": "intermediate",
+      "exercise": "Compare material input, usable parts, scrap, and reassembly effort for two production plans on the same design.",
+      "resources": [
+        {
+          "url": "https://ref.gs1.org/standards/epcis/",
+          "publisher": "ref.gs1.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://ref.gs1.org/standards/epcis/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/",
+          "publisher": "www.itl.nist.gov",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.itl.nist.gov/div898/handbook/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-059",
+      "title": "Offline maker education",
+      "slug": "offline-education",
+      "track": "Technology for Public Benefit",
+      "level": "intermediate",
+      "exercise": "Package a small lesson that runs offline and test setup time and successful completion on a second machine.",
+      "resources": [
+        {
+          "url": "https://docs.python.org/3/tutorial/",
+          "publisher": "docs.python.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.python.org/3/tutorial/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://docs.micropython.org/en/latest/",
+          "publisher": "docs.micropython.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.micropython.org/en/latest/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    },
+    {
+      "id": "LL-060",
+      "title": "Participatory impact evaluation",
+      "slug": "participatory-evaluation",
+      "track": "Technology for Public Benefit",
+      "level": "intermediate",
+      "exercise": "Co-define one useful outcome with intended users and compare a prototype against their existing workflow using consented evidence.",
+      "resources": [
+        {
+          "url": "https://docs.getodk.org/",
+          "publisher": "docs.getodk.org",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://docs.getodk.org/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        },
+        {
+          "url": "https://www.itl.nist.gov/div898/handbook/",
+          "publisher": "www.itl.nist.gov",
+          "type": "learning-reference",
+          "check_status": "reachable",
+          "http_status": 200,
+          "resolved_url": "https://www.itl.nist.gov/div898/handbook/",
+          "checked_at": "2026-10-15T07:39:41.701424+00:00"
+        }
+      ]
+    }
+  ]
+}

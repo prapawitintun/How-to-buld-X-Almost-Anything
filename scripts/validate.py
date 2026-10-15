@@ -1,4 +1,4 @@
-"""Validate the learning catalog and six original teaching labs."""
+"""Validate the learning catalog and seven original teaching labs."""
 from pathlib import Path
 import json, importlib.util, xml.etree.ElementTree as ET
 from urllib.parse import urlparse
@@ -76,10 +76,25 @@ s.reset();assert s.task is None
 rejects(s.start);s.propose('Task B');rejects(s.start)
 s.approve();s.start();s.complete();assert s.state==supervision.State.IDLE and s.task is None
 assert s.events[-1]['event']=='complete' and s.events[-1]['state']=='idle'
+bridge=load('labs/07-cad-to-robotics/main.py')
+demo=bridge.build_demo()
+assert demo['baseline']['sheets']==2 and demo['candidate']['sheets']==1
+assert [t['part_id'] for t in demo['pick_sequence']]==['P1','P2','P3','P4']
+assert demo['max_fk_error_m']<1e-9
+assert math.isclose(demo['pick_sequence'][0]['target_m'][0],0.375)
+assert math.isclose(demo['pick_sequence'][0]['target_m'][1],-0.015)
+for target in [(0.7,0),(0.1,0),(0.3,0.2),(-0.3,0.2)]:
+    angles=bridge.inverse_2r(target)
+    assert math.dist(limb.forward([0.4,0.3],angles)[-1],target)<1e-9
+rejects(lambda:bridge.inverse_2r((1,0)))
+rejects(lambda:bridge.inverse_2r((0,0)))
+rejects(lambda:bridge.dependency_order({'A':['B'],'B':['A']}))
+rejects(lambda:bridge.dependency_order({'A':['missing']}))
+rejects(lambda:bridge.build_demo(parts=[{'id':'other','w':10,'h':10}]))
 import re
 for doc in ROOT.rglob('*.md'):
     if 'external' in doc.relative_to(ROOT).parts:continue
     for target in re.findall(r'\]\(([^)]+)\)',doc.read_text()):
         if '://' not in target and not target.startswith('#'):
-            assert (doc.parent/target).exists(),(str(doc),target)
-print('PASS: 60 categories, 8 tracks, 12 humanoid topics, local links, and six labs including numerical and failure-case checks.')
+            assert (doc.parent/target.split('#',1)[0]).exists(),(str(doc),target)
+print('PASS: 60 categories, 8 tracks, 12 humanoid topics, local links, and seven labs including CAD-to-robotics unit, reachability, and dependency checks.')

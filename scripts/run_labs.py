@@ -1,10 +1,10 @@
-"""Run six local lessons and the validator, preserving reproducible text outputs."""
+"""Run seven local lessons and the validator, preserving reproducible text outputs."""
 from pathlib import Path
 import subprocess,sys,json,platform
 from datetime import datetime,timezone
 
 ROOT=Path(__file__).resolve().parents[1]
-LABS=['01-panel-geometry','02-fit-predictor','03-sheet-packing','04-limb-kinematics','05-static-balance','06-human-supervision']
+LABS=['01-panel-geometry','02-fit-predictor','03-sheet-packing','04-limb-kinematics','05-static-balance','06-human-supervision','07-cad-to-robotics']
 if __name__=='__main__':
     destination=ROOT/'examples/results';destination.mkdir(parents=True,exist_ok=True)
     results=[]

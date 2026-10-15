@@ -37,6 +37,10 @@ These are complementary resources, not interchangeable products. Choose one mini
 
 Walking, manipulation, conversation, and useful work are distinct claims. Demonstrating one does not establish the others. Simulation success is not evidence of successful transfer to a real robot.
 
+## Runnable bridge from CAD to robotics
+
+[Lab 7](labs/07-cad-to-robotics/README.md) implements the first numerical bridge: labeled panels → abstract sheet layout → dependency-ordered pick targets → two-link inverse kinematics → forward-kinematics checks. Run it before selecting a heavier simulation framework.
+
 ## Pilot connected to Pam's fabrication work
 
 **Task:** arrange four labeled planar parts on a table in simulation, following an approved assembly sequence.

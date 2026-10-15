@@ -102,7 +102,7 @@ An access-challenge page was observed at the ROS documentation site during web i
 
 ## Local executable validation
 
-Six teaching labs were run. The validator checks catalog consistency, local links, geometry, fit intervals, packing feasibility and its sample baseline, kinematic Jacobians against finite differences, signed support-region margins, and invalid task-state transitions. No physical robot, material test, field study, or full humanoid controller was evaluated.
+The six original teaching labs were run for the earlier release. The integrated seventh lesson adds kinematic and dependency checks. The validator checks catalog consistency, local links, geometry, fit intervals, packing feasibility and its sample baseline, kinematic Jacobians against finite differences, signed support-region margins, invalid task-state transitions, and CAD-to-robotics unit conversion, inverse kinematics, and dependency failures. No physical robot, material test, field study, or full humanoid controller was evaluated.
 
 ## Credits
 

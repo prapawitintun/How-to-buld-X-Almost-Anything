@@ -7,9 +7,31 @@
 **Compiled by Prapawit Intun — MIT Affiliate**  
 An independent educational collection for studying technologies of the future.
 
-**60 learning paths · 8 tracks · 6 runnable Python labs · 12 humanoid topics**
+**60 learning paths · 8 tracks · 7 runnable Python labs · 12 humanoid topics**
 
-[Quick start](#quick-start) · [Humanoid robotics](HUMANOID.md) · [Impact roadmap](IMPACT_ROADMAP.md) · [Original build-your-own-x](upstream/README.md) · [Contribute](CONTRIBUTING.md) · [ภาษาไทย](README.th.md)
+[First project in 10 minutes](GETTING_STARTED.md) · [CAD → robotics demo](labs/07-cad-to-robotics/README.md) · [Humanoid robotics](HUMANOID.md) · [Impact roadmap](IMPACT_ROADMAP.md) · [Original build-your-own-x](upstream/README.md) · [Contribute](CONTRIBUTING.md) · [ภาษาไทย](README.th.md)
+
+## See what you can build
+
+### 1. A numbered CAD panel
+
+![Numbered 180 by 120 millimeter CAD panel](assets/01-panel-preview.svg)
+
+Create a closed, dimensioned SVG with a part ID. [Run lab 1](labs/01-panel-geometry/README.md).
+
+### 2. A slot-fit prediction
+
+![Clearance intervals calculated from synthetic material thickness and kerf inputs](assets/02-fit-preview.svg)
+
+Explore how thickness and kerf uncertainty affect predicted clearance. These are synthetic inputs, not measured fit results. [Run lab 2](labs/02-fit-predictor/README.md).
+
+### 3. A sheet-packing comparison
+
+![Four rectangular parts packed on two sheets in original order and one sheet after height sorting](assets/03-packing-preview.svg)
+
+Compare the same four parts: **2 sheets / 45% utilization → 1 sheet / 90% utilization** on this example. Cutting margins and kerf spacing are omitted. [Run lab 3](labs/03-sheet-packing/README.md).
+
+These vector previews illustrate the numerical examples. See [inputs and interpretation](assets/PREVIEW_NOTES.md). Running the seven core labs requires only standard Python.
 
 ## What is new
 
@@ -17,23 +39,32 @@ This edition combines the earlier 40-category package with 20 new paths: **12 fo
 
 The ambition is to connect learning with useful outcomes: build → compare with a baseline → document failures → invite replication → pilot with intended users. A catalog alone is not evidence of social impact.
 
-## Quick start
+## Build your first project in 10 minutes
 
-Install Python 3.10 or later, extract this repository, and open a terminal in its root. The six included labs run offline with the standard library; no API key or robot hardware is needed.
+Follow the [guided walkthrough](GETTING_STARTED.md) to create a panel, change its dimensions, compare layouts, and inspect robot pick targets. The suggested time assumes Python is installed; setup time varies.
+
+For a first result, download and extract the repository, open a terminal in its root directory, and run:
 
 ```bash
-python labs/01-panel-geometry/main.py
-python labs/02-fit-predictor/main.py
-python labs/03-sheet-packing/main.py
-python labs/04-limb-kinematics/main.py
-python labs/05-static-balance/main.py
-python labs/06-human-supervision/main.py
+python labs/01-panel-geometry/main.py --width 180 --height 120 --id P001
+```
+
+Open **`outputs/panel.svg`** in a browser. You should see a **180 × 120 mm** rectangle labeled **P001**. Change `--width`, `--height`, or `--id` and rerun.
+
+**Requirements:** Python 3.10 or later. No API key, robot hardware, or third-party package is needed for the core labs. On Windows, try `py`; on macOS/Linux, your Python command may be `python3`.
+
+## CAD → fabrication → robotics
+
+The [integrated lesson](labs/07-cad-to-robotics/README.md) connects labeled parts to a sheet layout, dependency order, robot-frame target coordinates, and checked planar-arm joint angles.
+
+```bash
+python labs/07-cad-to-robotics/main.py
 python scripts/validate.py
 ```
 
-On Windows, use `py` if that is how Python is installed. Open SVG output in a browser. These local labs do not train a walking humanoid or send commands to physical motors.
+It writes `outputs/cad-to-robotics.json`. The supplied case yields **P1 → P2 → P3 → P4**, uses one sheet after height sorting, and checks the arm endpoint against each pick target. It does not provide a collision-free trajectory or physical robot execution.
 
-## Six working starter labs
+## Seven working starter labs
 
 | Lab | Result | What the evidence establishes |
 | --- | --- | --- |
@@ -43,6 +74,7 @@ On Windows, use `py` if that is how Python is installed. Open SVG output in a br
 | [Limb kinematics](labs/04-limb-kinematics/README.md) | Joint positions, Jacobian, SVG limb diagram | Analytic geometry checked by finite differences |
 | [Static balance](labs/05-static-balance/README.md) | Support polygon, signed margin, SVG diagram | A quasi-static geometric margin |
 | [Human supervision](labs/06-human-supervision/README.md) | Task approval, stop, and reset event log | Software state-transition behavior |
+| [CAD → fabrication → robotics](labs/07-cad-to-robotics/README.md) | Sheet layout, dependency order, and inverse-kinematics targets | Consistent units and reachable endpoints on the supplied case |
 
 ## Example outputs
 
@@ -167,6 +199,10 @@ Each category provides a challenge and learning references. Some links are books
 | [Circular manufacturing](categories/circular-manufacturing.md) | Compare material input, usable parts, scrap, and reassembly effort for two production plans on the same design. | [ref.gs1.org](https://ref.gs1.org/standards/epcis/) · [itl.nist.gov](https://www.itl.nist.gov/div898/handbook/) |
 | [Offline maker education](categories/offline-education.md) | Package a small lesson that runs offline and test setup time and successful completion on a second machine. | [docs.python.org](https://docs.python.org/3/tutorial/) · [docs.micropython.org](https://docs.micropython.org/en/latest/) |
 | [Participatory impact evaluation](categories/participatory-evaluation.md) | Co-define one useful outcome with intended users and compare a prototype against their existing workflow using consented evidence. | [docs.getodk.org](https://docs.getodk.org/) · [itl.nist.gov](https://www.itl.nist.gov/div898/handbook/) |
+## Share one useful demo
+
+Start with the [CAD-to-robotics example](labs/07-cad-to-robotics/README.md), show its measured output, and link readers to the exact run command. See [SHARING.md](SHARING.md) for a focused demo brief and suggested wording for maker, computational-design, and robotics communities. Follow each community's posting rules.
+
 ## How to contribute
 
 Improve one lesson with runnable code, clear prerequisites, expected outputs, and a recorded failure case. Submit a reproducible change rather than an untested capability claim. See [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -175,7 +211,7 @@ If this collection helps you, share a build or suggest a correction. The goal is
 
 ## Reproduce the local checks
 
-Run `python scripts/run_labs.py` to execute all six examples and the validator. Logs are saved in `examples/results/` and summarized in `validation-report.json`. The included logs record the release checks; rerunning the command replaces them with your local results.
+Run `python scripts/run_labs.py` to execute all seven examples and the validator. Logs are saved in `examples/results/` and summarized in `validation-report.json`. The included logs record the release checks; rerunning the command replaces them with your local results.
 
 ## Evidence and scope
 

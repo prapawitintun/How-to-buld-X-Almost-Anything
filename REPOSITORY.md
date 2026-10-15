@@ -1,10 +1,10 @@
 # Suggested GitHub presentation
 
-Repository name: `build-for-humanity`
+Repository name: `How-to-buld-X-Almost-Anything`
 
 Description:
 
-> Learn by building: 60 paths from AI and software to CAD/BIM, digital fabrication, humanoid robotics, sensors, and biomaterials. Six runnable Python labs, original learning references, and a roadmap for measuring real-world benefit. Compiled by Prapawit Intun.
+> Learn by building: 60 paths from AI and software to CAD/BIM, digital fabrication, humanoid robotics, sensors, and biomaterials. Seven runnable Python labs, original learning references, and a roadmap for measuring real-world benefit. Compiled by Prapawit Intun.
 
 Suggested relevant topics:
 
@@ -19,3 +19,11 @@ The README carries the requested compiler credit, **Prapawit Intun — MIT Affil
 Create a new empty repository with the chosen name and upload the contents of this project directory. Keep `README.md` at its root. If using Git, inspect any existing remote before pushing and preserve its history.
 
 Run `python scripts/validate.py` before publishing. Check the source record for unresolved access checks. Do not include a fetched `external/` checkout in a release archive; link readers to the upstream reference instead.
+
+## Topics for this repository
+
+Save these under the repository sidebar's **About → gear icon → Topics**:
+
+`learn-by-doing` · `artificial-intelligence` · `programming` · `cad` · `bim` · `digital-fabrication` · `robotics` · `biomaterials` · `python` · `educational`
+
+Also relevant: `humanoid-robot` and `computational-design`. A file listing topics does not apply them to GitHub. They must be saved in the repository metadata.

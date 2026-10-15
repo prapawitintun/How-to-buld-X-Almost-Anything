@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Added three result previews near the top of the README.
+- Added a guided first project and a seventh, tested CAD-to-robotics lesson.
+- Restored catalog data and validation workflow omitted from the initial upload.
+- Added a focused demo-sharing guide and repository topic instructions.
+
+
 ## 0.2.0 — 2026-10-15
 
 - Expanded the previous 40-category package to 60 categories in 8 tracks.
