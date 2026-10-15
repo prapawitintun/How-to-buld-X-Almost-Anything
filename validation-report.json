@@ -1,0 +1,42 @@
+{
+  "executed_at": "2026-10-15T07:41:39.942741+00:00",
+  "python": "3.12.14",
+  "results": [
+    {
+      "script": "labs/01-panel-geometry/main.py",
+      "exit_code": 0,
+      "log": "examples/results/01-panel-geometry.txt"
+    },
+    {
+      "script": "labs/02-fit-predictor/main.py",
+      "exit_code": 0,
+      "log": "examples/results/02-fit-predictor.txt"
+    },
+    {
+      "script": "labs/03-sheet-packing/main.py",
+      "exit_code": 0,
+      "log": "examples/results/03-sheet-packing.txt"
+    },
+    {
+      "script": "labs/04-limb-kinematics/main.py",
+      "exit_code": 0,
+      "log": "examples/results/04-limb-kinematics.txt"
+    },
+    {
+      "script": "labs/05-static-balance/main.py",
+      "exit_code": 0,
+      "log": "examples/results/05-static-balance.txt"
+    },
+    {
+      "script": "labs/06-human-supervision/main.py",
+      "exit_code": 0,
+      "log": "examples/results/06-human-supervision.txt"
+    },
+    {
+      "script": "scripts/validate.py",
+      "exit_code": 0,
+      "log": "examples/results/validation.txt"
+    }
+  ],
+  "scope": "Local educational calculations and software states only; no external robot framework or physical hardware evaluated."
+}

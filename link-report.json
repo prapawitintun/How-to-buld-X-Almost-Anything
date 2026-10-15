@@ -1,0 +1,421 @@
+{
+  "checked_at": "2026-10-15T07:39:41.701424+00:00",
+  "unique_urls": 83,
+  "results": {
+    "https://beej.us/guide/bgnet/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://beej.us/guide/bgnet/"
+    },
+    "https://browser.engineering/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://browser.engineering/"
+    },
+    "https://cadquery.readthedocs.io/en/latest/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://cadquery.readthedocs.io/en/latest/"
+    },
+    "https://camotics.org/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://camotics.org/"
+    },
+    "https://class.textile-academy.org/classes/2024-25/week07/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://class.textile-academy.org/classes/2024-25/week07/"
+    },
+    "https://class.textile-academy.org/tutorials/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://class.textile-academy.org/tutorials/"
+    },
+    "https://craftinginterpreters.com/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://craftinginterpreters.com/"
+    },
+    "https://cstack.github.io/db_tutorial/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://cstack.github.io/db_tutorial/"
+    },
+    "https://dev.opencascade.org/doc/overview/html/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://occt3d.com/dev/doc/overview/html/index.html"
+    },
+    "https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"
+    },
+    "https://developer.mozilla.org/en-US/docs/Web/HTTP": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP"
+    },
+    "https://developers.google.com/optimization/pack/bin_packing": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://developers.google.com/optimization/pack/bin_packing"
+    },
+    "https://docs.arduino.cc/learn/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.arduino.cc/learn/"
+    },
+    "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/"
+    },
+    "https://docs.bonsaibim.org/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.bonsaibim.org/"
+    },
+    "https://docs.docker.com/get-started/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.docker.com/get-started/"
+    },
+    "https://docs.getodk.org/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.getodk.org/"
+    },
+    "https://docs.ifcopenshell.org/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.ifcopenshell.org/"
+    },
+    "https://docs.kicad.org/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.kicad.org/"
+    },
+    "https://docs.micropython.org/en/latest/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.micropython.org/en/latest/"
+    },
+    "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.opencv.org/4.13.0/d9/df8/tutorial_root.html"
+    },
+    "https://docs.openenergymonitor.org/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.openenergymonitor.org/"
+    },
+    "https://docs.python.org/3/library/enum.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.python.org/3/library/enum.html"
+    },
+    "https://docs.python.org/3/library/http.server.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.python.org/3/library/http.server.html"
+    },
+    "https://docs.python.org/3/library/socket.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.python.org/3/library/socket.html"
+    },
+    "https://docs.python.org/3/tutorial/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.python.org/3/tutorial/"
+    },
+    "https://docs.ros.org/en/jazzy/Tutorials.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.ros.org/en/jazzy/Tutorials.html"
+    },
+    "https://drake.mit.edu/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://drake.mit.edu/"
+    },
+    "https://fabacademy.org/2018/docs/FabAcademy-Tutorials/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://fabacademy.org/2018/docs/FabAcademy-Tutorials/"
+    },
+    "https://gazebosim.org/docs/latest/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://gazebosim.org/docs/latest/"
+    },
+    "https://git-scm.com/book/en/v2": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://git-scm.com/book/en/v2"
+    },
+    "https://github.com/Jack000/SVGnest": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/Jack000/SVGnest"
+    },
+    "https://github.com/facebookresearch/faiss": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/facebookresearch/faiss"
+    },
+    "https://github.com/google-deepmind/mujoco_menagerie": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/google-deepmind/mujoco_menagerie"
+    },
+    "https://github.com/google-deepmind/mujoco_playground": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/google-deepmind/mujoco_playground"
+    },
+    "https://github.com/huggingface/lerobot": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/huggingface/lerobot"
+    },
+    "https://github.com/isaac-sim/IsaacLab": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/isaac-sim/IsaacLab"
+    },
+    "https://github.com/karpathy/micrograd": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/karpathy/micrograd"
+    },
+    "https://github.com/karpathy/nanoGPT": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/karpathy/nanoGPT"
+    },
+    "https://github.com/kscalelabs/ksim": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/kscalelabs/ksim"
+    },
+    "https://github.com/leggedrobotics/rsl_rl": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/leggedrobotics/rsl_rl"
+    },
+    "https://github.com/nortikin/sverchok": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/nortikin/sverchok"
+    },
+    "https://github.com/openai/whisper": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/openai/whisper"
+    },
+    "https://github.com/rasbt/LLMs-from-scratch": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/rasbt/LLMs-from-scratch"
+    },
+    "https://github.com/robotology/icub-main": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/robotology/icub-main"
+    },
+    "https://github.com/ros-controls/ros2_control": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/ros-controls/ros2_control"
+    },
+    "https://github.com/ros/urdf": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/ros/urdf"
+    },
+    "https://github.com/stack-of-tasks/pinocchio": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/stack-of-tasks/pinocchio"
+    },
+    "https://github.com/unitreerobotics/unitree_mujoco": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://github.com/unitreerobotics/unitree_mujoco"
+    },
+    "https://help.prusa3d.com/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://help.prusa3d.com/"
+    },
+    "https://huggingface.co/docs/lerobot/index": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://huggingface.co/docs/lerobot/index"
+    },
+    "https://leafletjs.com/examples/quick-start/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://leafletjs.com/examples/quick-start/"
+    },
+    "https://learn.adafruit.com/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://learn.adafruit.com/"
+    },
+    "https://linuxcnc.org/docs/html/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://linuxcnc.org/docs/html/"
+    },
+    "https://llvm.org/docs/tutorial/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://llvm.org/docs/tutorial/"
+    },
+    "https://marlinfw.org/docs/basics/install.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://marlinfw.org/docs/basics/install.html"
+    },
+    "https://modernrobotics.northwestern.edu/nu-gm-book-resource/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://modernrobotics.northwestern.edu/nu-gm-book-resource/"
+    },
+    "https://moveit.picknik.ai/main/index.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://moveit.picknik.ai/main/index.html"
+    },
+    "https://mujoco.readthedocs.io/en/stable/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://mujoco.readthedocs.io/en/stable/"
+    },
+    "https://networkx.org/documentation/stable/reference/algorithms/dag.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://networkx.org/documentation/stable/reference/algorithms/dag.html"
+    },
+    "https://networkx.org/documentation/stable/tutorial.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://networkx.org/documentation/stable/tutorial.html"
+    },
+    "https://nlp.stanford.edu/IR-book/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://nlp.stanford.edu/IR-book/"
+    },
+    "https://observablehq.com/@d3/learn-d3": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://observablehq.com/@d3/learn-d3"
+    },
+    "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://ocw.mit.edu/courses/4-540-introduction-to-shape-grammars-i-fall-2018/"
+    },
+    "https://os.phil-opp.com/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://os.phil-opp.com/"
+    },
+    "https://pdos.csail.mit.edu/6.1810/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://pdos.csail.mit.edu/6.1810/2026/"
+    },
+    "https://pytorch.org/tutorials/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://docs.pytorch.org/tutorials/"
+    },
+    "https://raytracing.github.io/books/RayTracingInOneWeekend.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://raytracing.github.io/books/RayTracingInOneWeekend.html"
+    },
+    "https://ref.gs1.org/standards/epcis/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://ref.gs1.org/standards/epcis/"
+    },
+    "https://sqlite.org/docs.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://sqlite.org/docs.html"
+    },
+    "https://sqlite.org/fts5.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://sqlite.org/fts5.html"
+    },
+    "https://underactuated.mit.edu/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://underactuated.mit.edu/"
+    },
+    "https://vega.github.io/vega-lite/tutorials/getting_started.html": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://vega.github.io/vega-lite/tutorials/getting_started.html"
+    },
+    "https://wiki.openstreetmap.org/wiki/Beginners%27_guide": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://wiki.openstreetmap.org/wiki/Beginners%27_guide"
+    },
+    "https://www.itl.nist.gov/div898/handbook/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://www.itl.nist.gov/div898/handbook/"
+    },
+    "https://www.kobakant.at/DIY/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://www.kobakant.at/DIY/"
+    },
+    "https://www.pbr-book.org/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://www.pbr-book.org/"
+    },
+    "https://www.qgis.org/resources/hub/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://www.qgis.org/resources/hub/"
+    },
+    "https://www.sbert.net/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://www.sbert.net/"
+    },
+    "https://www.w3.org/TR/prov-overview/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://www.w3.org/TR/prov-overview/"
+    },
+    "https://www.w3.org/TR/rdf11-primer/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://www.w3.org/TR/rdf11-primer/"
+    },
+    "https://www.w3.org/WAI/tutorials/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://www.w3.org/WAI/tutorials/"
+    },
+    "https://wyag.thb.lt/": {
+      "check_status": "reachable",
+      "http_status": 200,
+      "resolved_url": "https://wyag.thb.lt/"
+    }
+  }
+}

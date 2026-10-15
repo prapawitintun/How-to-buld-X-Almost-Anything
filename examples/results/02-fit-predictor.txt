@@ -1,0 +1,5 @@
+SYNTHETIC demonstration — substitute measured thickness and kerf before experiments.
+{"nominal_slot_mm": 2.85, "clearance_mm": 0.05, "interval_mm": [0.0, 0.1], "prediction": "uncertain"}
+{"nominal_slot_mm": 2.9, "clearance_mm": 0.1, "interval_mm": [0.05, 0.15], "prediction": "within_assumed_clearance_range"}
+{"nominal_slot_mm": 2.95, "clearance_mm": 0.15, "interval_mm": [0.1, 0.2], "prediction": "uncertain"}
+{"nominal_slot_mm": 3.0, "clearance_mm": 0.2, "interval_mm": [0.15, 0.25], "prediction": "uncertain"}

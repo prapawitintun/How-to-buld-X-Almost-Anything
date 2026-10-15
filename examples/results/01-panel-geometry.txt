@@ -1,0 +1,1 @@
+Created outputs/panel.svg: 180 x 120 mm; closed boundary, one part ID.

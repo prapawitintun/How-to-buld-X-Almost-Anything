@@ -1,0 +1,80 @@
+{
+  "sample": "synthetic rectangles",
+  "baseline": {
+    "sheets": 2,
+    "utilization": 0.45,
+    "placements": [
+      {
+        "id": "P1",
+        "sheet": 1,
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 70
+      },
+      {
+        "id": "P2",
+        "sheet": 1,
+        "x": 50,
+        "y": 0,
+        "w": 50,
+        "h": 20
+      },
+      {
+        "id": "P3",
+        "sheet": 2,
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 70
+      },
+      {
+        "id": "P4",
+        "sheet": 2,
+        "x": 50,
+        "y": 0,
+        "w": 50,
+        "h": 20
+      }
+    ]
+  },
+  "height_sorted": {
+    "sheets": 1,
+    "utilization": 0.9,
+    "placements": [
+      {
+        "id": "P1",
+        "sheet": 1,
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 70
+      },
+      {
+        "id": "P3",
+        "sheet": 1,
+        "x": 50,
+        "y": 0,
+        "w": 50,
+        "h": 70
+      },
+      {
+        "id": "P2",
+        "sheet": 1,
+        "x": 0,
+        "y": 70,
+        "w": 50,
+        "h": 20
+      },
+      {
+        "id": "P4",
+        "sheet": 1,
+        "x": 50,
+        "y": 70,
+        "w": 50,
+        "h": 20
+      }
+    ]
+  },
+  "sheets_saved": 1
+}

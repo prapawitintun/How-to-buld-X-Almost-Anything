@@ -1,0 +1,27 @@
+{
+  "support_polygon_m": [
+    [
+      -0.15,
+      -0.1
+    ],
+    [
+      0.15,
+      -0.1
+    ],
+    [
+      0.15,
+      0.1
+    ],
+    [
+      -0.15,
+      0.1
+    ]
+  ],
+  "com_projection_m": [
+    0.03,
+    0.02
+  ],
+  "signed_margin_m": 0.08,
+  "assumption": "fixed coplanar contacts, gravity only, adequate friction, quasi-static",
+  "svg": "outputs/support.svg"
+}

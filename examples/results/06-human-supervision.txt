@@ -1,0 +1,52 @@
+Blocked restart: Execution requires task approval.
+{
+  "scope": "software-only teaching model; no operator authentication or motor stop",
+  "events": [
+    {
+      "event": "propose",
+      "state": "proposed",
+      "task": "SIMULATED: place panel P001 on table"
+    },
+    {
+      "event": "approve",
+      "state": "approved",
+      "task": "SIMULATED: place panel P001 on table"
+    },
+    {
+      "event": "start",
+      "state": "running",
+      "task": "SIMULATED: place panel P001 on table"
+    },
+    {
+      "event": "stop",
+      "state": "stopped",
+      "task": "SIMULATED: place panel P001 on table"
+    },
+    {
+      "event": "reset",
+      "state": "idle",
+      "task": null
+    },
+    {
+      "event": "propose",
+      "state": "proposed",
+      "task": "SIMULATED: place panel P001 on table"
+    },
+    {
+      "event": "approve",
+      "state": "approved",
+      "task": "SIMULATED: place panel P001 on table"
+    },
+    {
+      "event": "start",
+      "state": "running",
+      "task": "SIMULATED: place panel P001 on table"
+    },
+    {
+      "event": "complete",
+      "state": "idle",
+      "task": "SIMULATED: place panel P001 on table"
+    }
+  ],
+  "final_state": "idle"
+}

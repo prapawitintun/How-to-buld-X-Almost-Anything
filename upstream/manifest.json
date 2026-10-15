@@ -1,0 +1,10 @@
+{
+  "name": "CodeCrafters build-your-own-x",
+  "repository": "codecrafters-io/build-your-own-x",
+  "url": "https://github.com/codecrafters-io/build-your-own-x",
+  "commit": "aa17439b62f384511a5561ce308e9598b94d8989",
+  "checked_at": "2026-10-15",
+  "license_metadata": null,
+  "root_license_file_found": false,
+  "integration": "Attributed upstream reference and optional user-invoked Git checkout. Upstream text, banners, and third-party code are not bundled or relicensed."
+}
